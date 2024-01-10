@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <link rel="stylesheet" href="stayel.css">
+  
+    <title>Document</title>
+ 
+</head>
+<body>
+    <div class="CRUD">
+  <div class="head">
+    <h3>CRUD</h3>
+
+  </div>
+  <div class="in puts">
+    <input placeholder="النوع" type="text" id="no3">
+    <div class="price">
+      <input  placeholder="التاريخ" type="date" id="date">
+      <input onkeyup="gettotal()"  id="car"  placeholder="طحينه"  type="number" > 
+        <input onkeyup="gettotal()" id="skr" placeholder="سكر" type="number">
+        <input onkeyup="gettotal()" id="listen" placeholder="ليثتين" type="number">
+        <input onkeyup="gettotal()" id="hymn" placeholder="هيمونه" type="number">
+        <input onkeyup="gettotal()" id="sana" placeholder="سمنه" type="number">
+        <input onkeyup="gettotal()" id="sham3" placeholder="شمع" type="number">
+        <input onkeyup="gettotal()" id="fanelya" placeholder="فانليا" type="number">
+        <input onkeyup="gettotal()" id="mlh" placeholder="ملح ليمون" type="number">
+        <input onkeyup="gettotal()" id="foyl" placeholder="فويل" type="number">
+        <input onkeyup="gettotal()" id="akyas" placeholder="اكياس" type="number">
+        <input onkeyup="gettotal()" id="steker" placeholder="ستيكر" type="number">
+        <input onkeyup="gettotal()" id="mrkz" placeholder="مركز لبن" type="number">
+        <input onkeyup="gettotal()" id="mksrat" placeholder="مكسرات" type="number">
+        <small id="total"></small>
+    </div>
+    <br>
+    <button id="button">اضافه</button>
+  </div><br>
+  <div class="out puts">
+  <div class="search">
+    <input placeholder="بحث" type="text">
+  </div>  
+  </div>
+  <table>
+    <tr>
+        <th>النوع</th>
+        <th>التاريخ</th>
+        <th>الطحينه</th>
+        <th>سكر</th>
+        <th>ليثتين</th>
+        <th>هيمونه</th>
+        <th>سمنه</th>
+        <th>شمع</th>
+        <th>فانليا</th>
+        <th>ملح ليمون</th>
+        <th>فويل</th>
+        <th>اكياس</th>
+        <th>ستيكر</th>
+        <th>مركز لبن</th>
+        <th>مكسرات</th>
+        <th>الاجمالي</th>
+        <th>تعديل</th>
+        <th>مسح</th>
+    </tr>
+    <tbody id="td">
+   
+    </tbody>
+  </table>
+</div>  
+<script src="project1.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Rubik', sans-serif;
+
+}
+body{
+    background-color: rgb(34, 34, 34);
+    
+    color: aliceblue;
+    display: flex;
+}
+.CRUD{
+    width: 80%;
+    margin: auto;
+    font-size: x-large;
+}
+.head{
+   text-align: center;
+margin: 4px;
+}
+input{
+width: 100%;
+color: white;
+background-color:#05060b ;
+padding: 5px 4px 5px 4px;
+font-size: 20px;
+    outline: none;
+    border: none;
+    margin: 3px;
+    text-align: center;
+}
+input:hover{
+    transform: scale(1.05);
+    background-color: rgb(12, 12, 66);
+box-shadow: 0px 5px 10px rgb(8, 146, 244); 
+}
+.price input{
+    width: 15%;
+}
+.total{
+    background-color: rgb(0, 68, 255);
+}
+.total::before{
+    content: "total:";
+}
+button {
+    height: 2.8em;
+    width: 80%;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #016dd9;
+    outline: none;
+    color: #016dd9;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    left: 9.3%;
+  }
+  
+  button:hover {
+    background: #04286c;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+  }
+  
+  @keyframes squeeze3124 {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  } 
+  table th{
+   color: #016dd9; 
+   font-size: 25px;
+  }
+  th,td{
+    padding: 5px;
+  }
